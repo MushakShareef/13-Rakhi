@@ -53,6 +53,39 @@ img {
   height: auto;
 }
 
+/* Mobile-first portrait image display */
+@media (max-width: 767px) {
+  .mobile-full-screen-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .mobile-image-container {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Portrait orientation optimization */
+@media (orientation: portrait) {
+  .portrait-optimized {
+    max-height: 90vh;
+    width: auto;
+  }
+}
+
+/* Landscape orientation (when user rotates phone) */
+@media (orientation: landscape) and (max-height: 500px) {
+  .landscape-mobile {
+    max-height: 85vh;
+    max-width: 90vw;
+  }
+}
+
 /* Button hover effects */
 .btn-hover {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

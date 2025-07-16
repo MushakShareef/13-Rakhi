@@ -23,8 +23,8 @@ function App() {
     setUserName(name);
     
     try {
-      // Simulate loading time for better UX
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      // Reduced loading time for better performance
+      await new Promise(resolve => setTimeout(resolve, 800));
       
       const randomImage = getRandomImage();
       setSelectedImage(randomImage);

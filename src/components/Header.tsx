@@ -8,14 +8,15 @@ const Header: React.FC = () => {
       <div className="relative z-10 max-w-4xl mx-auto">
         <div className="flex items-center justify-center gap-2 mb-4">
           <Sparkles className="w-8 h-8 text-yellow-300 animate-pulse" />
-          <Gift className="w-10 h-10 text-white" />
+          {/* <Gift className="w-10 h-10 text-white" /> */}
+          <img src="/images/baba.png" alt="Sivbaba" width={100} height={100} />
           <Sparkles className="w-8 h-8 text-yellow-300 animate-pulse" />
         </div>
         
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
-          Raksha Bandhan
+          Raksha Bandhan <br /> BrahmaKumaris
         </h1>
-        
+               
         <div className="flex items-center justify-center gap-2 mb-4">
           <Heart className="w-6 h-6 text-red-300" />
           <p className="text-lg md:text-xl font-medium">
@@ -25,8 +26,7 @@ const Header: React.FC = () => {
         </div>
         
         <p className="text-base md:text-lg opacity-90 max-w-2xl mx-auto leading-relaxed">
-          Celebrate the eternal bond between siblings with our special Rakhi collection. 
-          Each image carries the blessings of love, protection, and prosperity.
+          Rakhi celebrates the eternal bond between divine love and pure souls, where the sacred thread symbolizes God's protection flowing through the hearts of His spiritual children
         </p>
         
         <div className="mt-6 flex flex-wrap justify-center gap-2 text-sm md:text-base">

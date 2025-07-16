@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-green-400" />
-                <span className="text-gray-300">+91-294-2426800</span>
+                <span className="text-gray-300">044 2626 6765</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-red-400" />
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-center md:text-left">
               <p className="text-gray-400 text-sm">
-                © 2024 Brahma Kumaris World Spiritual University. All rights reserved.
+                 Brahma Kumaris World Spiritual University. All rights reserved.
               </p>
             </div>
             <div className="flex items-center gap-4 text-sm text-gray-400">

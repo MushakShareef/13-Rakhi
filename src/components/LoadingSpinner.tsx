@@ -15,6 +15,9 @@ const LoadingSpinner: React.FC = () => {
         <p className="text-gray-600">
           Selecting a special blessed image just for you...
         </p>
+        <p className="text-gray-500 text-sm mt-2">
+          Large images may take a moment to load
+        </p>
       </div>
     </div>
   );
