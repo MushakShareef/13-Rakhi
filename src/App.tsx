@@ -87,7 +87,7 @@ function App() {
       
       <main className="py-12">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12 px-4">
+          {/* <div className="text-center mb-12 px-4">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
               Receive Your Personalized Rakhi Blessing
             </h2>
@@ -95,7 +95,7 @@ function App() {
               Enter your name below to receive a specially selected Rakhi image 
               filled with love, blessings, and spiritual energy.
             </p>
-          </div>
+          </div> */}
           
           <UserForm 
             onSubmit={handleFormSubmit}
