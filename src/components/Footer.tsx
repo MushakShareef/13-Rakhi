@@ -52,12 +52,12 @@ const Footer: React.FC = () => {
               <div className="flex items-center gap-3">
                 <Globe className="w-5 h-5 text-blue-400" />
                 <a 
-                  href="https://www.brahmakumaris.org" 
+                  href="https://www.brahmakumaris.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white transition-colors duration-200"
                 >
-                  www.brahmakumaris.org
+                  www.brahmakumaris.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
@@ -67,10 +67,10 @@ const Footer: React.FC = () => {
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-red-400" />
                 <a 
-                  href="mailto:info@brahmakumaris.org"
+                  href="mailto:contact@brahmakumaris.com"
                   className="text-gray-300 hover:text-white transition-colors duration-200"
                 >
-                  info@brahmakumaris.org
+                  contact@brahmakumaris.com
                 </a>
               </div>
             </div>
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-center md:text-left">
               <p className="text-gray-400 text-sm">
-                 Brahma Kumaris World Spiritual University. All rights reserved.
+                 Brahma Kumaris World Spiritual University.
               </p>
             </div>
             <div className="flex items-center gap-4 text-sm text-gray-400">
